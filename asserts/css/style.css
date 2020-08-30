@@ -1,0 +1,107 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgb(243, 239, 239) !important;
+}
+
+.row{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* sidebar */
+.sidebar{
+    /* height: 100vh  !important; */
+    background-color: #007bff !important;
+    /* box-shadow: 5px 7px 25px #999  !important; */
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: none;
+}
+.sidebar-link1{
+    transition: all .4s  !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+
+}
+.sidebar-link1:hover{
+    background-color: #17a2b8  !important;
+    color: white;
+    text-decoration: none;
+    border-left: 5px solid rgb(3, 3, 70);
+    font-size: 1rem !important;
+    /* border-radius: 5px  !important;  */
+
+}
+.sidebar-link{
+    transition: all .4s  !important;
+}
+.sidebar-link:hover{
+    background-color: #17a2b8  !important;
+    color: white;
+    text-decoration: none;
+    border-left: 5px solid rgb(3, 3, 70);
+    font-size: 1rem !important;
+    /* border-radius: 5px  !important;  */
+
+}
+.currentli{
+    background-color: #0e6dd3  !important;
+    transition: all .3s  !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.currentli:hover{
+    background-color: #043c61  !important;
+    border-radius:3px  !important;
+    transform: translateY(-1px)  !important;
+    border-left: 5px solid rgb(3, 3, 70);
+
+}
+.current{
+    background-color: #0e6dd3  !important;
+    transition: all .3s  !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+.current:hover{
+    background-color: #043c61  !important;
+    border-left: 5px solid rgb(3, 3, 70);
+    border-radius:3px  !important;
+    transform: translateY(-1px)  !important;
+}
+/* end of side bar */
+/* top nav */
+.search-input{
+    border-radius: 25px !important;
+    transition: all .4s !important;
+    height: 40px !important;
+
+}
+/* card section */
+.blue{
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-top: 1rem !important;
+}
+.red{
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-left: 4rem !important;
+    width: 0% !important;
+}
+.yellow{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.black{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.scrollbar{
+    width: 220px;
+    height: 379px;
+    overflow-x: hidden; 
+    overflow-y: scroll;
+}
